@@ -1,0 +1,49 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin: 0px;
+}
+
+.wrapper {
+    max-width: 70%;
+    margin: 0px auto;
+}
+
+header{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    background-color: #1768AC;
+}
+
+#logo-left {
+    float: left;
+}
+
+#logo-left h1{
+    margin: 10px auto;
+    border: #06bee1;
+    border-width: 2px 0px;
+    border-style: solid;
+}
+
+nav {
+    float: right;
+    margin: 5px 0px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#hero {
+    height: 2000px;
+    background-color: #06bee1;
+}
