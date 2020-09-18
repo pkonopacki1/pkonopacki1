@@ -9,12 +9,22 @@ body {
     margin: 0px auto;
 }
 
+.light {
+    background-color: #B7D9F5;
+    color: #072136;
+}
+
+.dark {
+    background-color: #1768AC;
+    color: white;
+}
+
 header{
     position: fixed;
     top: 0px;
     right: 0px;
     left: 0px;
-    background-color: #1768AC;
+    background-color: #0F426C;
 }
 
 #logo-left {
@@ -23,7 +33,7 @@ header{
 
 #logo-left h1{
     margin: 10px auto;
-    border: #06bee1;
+    border: #F2F2F2;
     border-width: 2px 0px;
     border-style: solid;
 }
@@ -35,7 +45,7 @@ nav {
 
 nav li {
     display: inline;
-    margin-left: 50px;
+    margin-right: 50px;
 }
 
 a {
@@ -44,6 +54,30 @@ a {
 }
 
 #hero {
-    height: 2000px;
-    background-color: #06bee1;
+    height: 400px;
+    margin-top: 50px;
+}
+
+#hero #row{
+    padding-top: 100px;
+}
+
+#hero img {
+    float: left;
+    height: 200px;
+    border-radius: 20px;
+    margin-left: 100px;
+    background-color: #B7D9F5;
+    background-image: url("images/image-background.jpeg");
+}
+
+#hero #about{
+    float: right;
+    margin-right: 100px;
+    text-align: justify;
+    width: 30%;
+}
+
+#skills {
+    height: 500px;
 }
