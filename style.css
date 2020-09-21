@@ -9,6 +9,16 @@ body {
     margin: 0px auto;
 }
 
+.wrapper:after {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    content: ".";
+    font-size: 0;
+    }
+
 .light {
     background-color: #B7D9F5;
     color: #072136;
@@ -17,6 +27,11 @@ body {
 .dark {
     background-color: #1768AC;
     color: white;
+}
+
+.section-title{
+    margin: 10px;
+    text-align: center;
 }
 
 header{
@@ -54,17 +69,13 @@ a {
 }
 
 #hero {
-    height: 400px;
     margin-top: 50px;
-}
-
-#hero #row{
-    padding-top: 100px;
 }
 
 #hero img {
     float: left;
-    height: 200px;
+    height: 300px;
+    margin: 50px 0px;
     border-radius: 20px;
     margin-left: 100px;
     background-color: #B7D9F5;
@@ -73,11 +84,25 @@ a {
 
 #hero #about{
     float: right;
-    margin-right: 100px;
+    margin: 50px 0px;
+    margin-right: 150px;
     text-align: justify;
     width: 30%;
+    font-family: cursive;
 }
 
 #skills {
-    height: 500px;
+    padding: 20px;
+}
+
+#skills #cell{
+    float: left;
+    width: 33%;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+#skills img{
+    justify-content: center;
+
 }
