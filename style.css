@@ -103,3 +103,17 @@ a {
     text-align: center;
     margin: 20px 0px;
 }
+
+#contact #text-block{
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+#contact a{
+    color: #072136;
+}
+
+#contact p{
+    text-align: left;
+}
