@@ -61,23 +61,21 @@ header .wrapper{
 }
 
 #logo-left h1{
-    font-size: 1.8vw;
     border: #F2F2F2;
     border-width: 2px 0px;
     border-style: solid;
+    font-size: 1.6vw;
 }
 
 nav {
     display: inline-block;
     margin-left: 100%;
-    /* float: right; */
     margin: auto 0px;
 }
 
 nav li {
     display: inline;
-    margin-right: 1vw;
-    font-size: 1vw;
+    margin-left: 1vw;
 }
 
 a {
@@ -92,7 +90,7 @@ a {
 
 #hero img {
     float: left;
-    height: 300px;
+    width: 30%;
     margin: 10px 0px;
     border-radius: 20px;
     margin-left: 100px;
@@ -110,7 +108,7 @@ a {
 }
 
 .cell{
-    float: left;
+    display: inline-block;
     width: 33%;
     text-align: center;
     margin: 20px 0px;
