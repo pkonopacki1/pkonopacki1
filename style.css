@@ -45,28 +45,39 @@ header{
     right: 0px;
     left: 0px;
     background-color: #0F426C;
-    height: 80px;
+}
+
+header .wrapper{
+    padding: 0px;
+    vertical-align: middle;
+    display: flex;
+    justify-content: space-between;
 }
 
 #logo-left {
-    float: left;
+    display: inline-block;
+    margin: 5px 0;
+    height: fit-content;
 }
 
 #logo-left h1{
-    margin: 10px auto;
+    font-size: 1.8vw;
     border: #F2F2F2;
     border-width: 2px 0px;
     border-style: solid;
 }
 
 nav {
-    float: right;
-    margin: 5px 0px;
+    display: inline-block;
+    margin-left: 100%;
+    /* float: right; */
+    margin: auto 0px;
 }
 
 nav li {
     display: inline;
-    margin-right: 50px;
+    margin-right: 1vw;
+    font-size: 1vw;
 }
 
 a {
@@ -75,7 +86,8 @@ a {
 }
 
 #hero {
-    margin-top: 80px;
+    margin-top: 20px;
+    padding-top: 4%;
 }
 
 #hero img {
